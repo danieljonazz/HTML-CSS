@@ -1,0 +1,171 @@
+body{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    border: green solid 10px;
+   
+    
+}
+
+.BIG{
+    background-color:  hsl(0, 0%, 98%);
+    border: red solid 10px;
+    margin: 90px 100px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.compress{
+    width: 500px;
+}
+#pp{
+    display: flex;
+    text-align: center;
+    
+}
+p{
+    display: flex;
+    text-align: left;
+    color: hsl(229, 6%, 66%);
+}
+
+#Firsth2{
+    margin-top: 0;
+}
+
+#Firsth1{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.first {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.Bigdiv{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#div1{
+    border-top: 4px hsl(180, 62%, 55%) solid;
+
+}
+
+#div2{
+    border-top: 4px hsl(0, 78%, 62%) solid;  
+    
+}
+
+#div3{
+    border-top: 4px hsl(34, 97%, 64%) solid;
+    
+}
+  
+#div4{
+    
+    border-top: 4px hsl(212, 86%, 64%) solid;
+    
+
+}
+
+.Fleximg{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 20px 20px;
+}
+
+.innerdiv{
+    padding: 20px;
+    width: 300px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 90%);
+    border-radius: 5px;
+
+}
+
+
+
+#div3{
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 1536px) {
+    .BIG {
+        max-width: 1536px;
+
+    }
+
+}
+
+@media (max-width: 1288px) {
+    .BIG {
+        max-width: 1288px;
+
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .BIG {
+        max-width: 1024px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .BIG {
+        max-width: 768px;
+
+    }
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .compress{
+        width : 315px
+        
+    } 
+
+}
+
+@media (max-width: 640px) {
+    .BIG {
+        max-width: 640px;
+
+    }
+    
+
+}
+
+@media (max-width: 475px) {
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .compress{
+        width : 315px
+        
+    }
+
+}
+
